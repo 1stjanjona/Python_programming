@@ -1,6 +1,5 @@
-#!/usr/bin/python3
-a = 5
-b = 8
+a = input("a = ")
+b = input("b = ")
 if a == b:
     print("a is equal to b")
 elif a != b and a > b:

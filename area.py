@@ -12,4 +12,4 @@ total_price = price * area
 str_area = str(area)
 str_total_price = str(total_price)
 print("The total area is: " + str_area)
-print("The total price is: Dz" + str_total_price)
+print("The total price is: " + str_total_price + " Dz")
