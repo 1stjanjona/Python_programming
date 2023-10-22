@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 a = input("a = ")
 b = input("b = ")
 if a == b:
