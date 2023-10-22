@@ -17,7 +17,8 @@ print('''
       ''')
 engine = pyttsx3.init()
 name = input(("Name: ")
-age = int(input("Dear visitor!\nHow old are you?\n"))
+number = input("Dear visitor!\nHow old are you?\n")
+age = int(number)
 engine.say(f"Dear {name}!\nHow old are you?\n")
 engine.runAndWait()
 if age >= 18:
