@@ -15,13 +15,13 @@ print('''
 █░░░░░░██░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█
 ████████████████████████████████████████████████████████████████████████████
       ''')
+age = int(input("Dear visitor! How old are you? "))
+name = input("Name: ")
+print(f"Dear {name}! You are {age} years old.")
 engine = pyttsx3.init()
-name = input(("Name: ")
-number = input("Dear visitor!\nHow old are you?\n")
-age = int(number)
-engine.say(f"Dear {name}!\nHow old are you?\n")
+engine.say(f"Dear {name}! You are {age} years old")
 engine.runAndWait()
 if age >= 18:
-    print("Welcome! You have access to our website and you can play the game.")
+    print("Welcome! You have access to our website and you can play the game ☑")
 else:
-    print("Sorry! You can't play our game.")
+    print("Sorry! You can't play our game ☒")
